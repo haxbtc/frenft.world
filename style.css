@@ -1,0 +1,53 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bfff3c;
+    display: grid;
+    justify-items: center;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
+a {
+    color: #bfff3c;
+}
+
+a:hover, a:visited {
+    color: #10d275;
+}
+
+.wrapper {
+    padding: 22px;
+}
+
+.nes-container {
+    background-color: #ffffff;
+}
+
+.nes-container .title {
+    background-color: #10d275 !important;
+}
+
+.message-list {
+    text-align: center;
+}
+
+.message img {
+    width: 64px;
+}
+
+.nes-balloon {
+    width: 70%;
+}
+
+footer {
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
