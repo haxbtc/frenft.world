@@ -16,6 +16,7 @@ img {
 
 a {
     color: #bfff3c;
+    font-weight: bold;
 }
 
 a:hover, a:visited {
@@ -44,6 +45,10 @@ a:hover, a:visited {
 
 .nes-balloon {
     width: 70%;
+}
+
+u {
+    border-bottom: 4px solid #10d275;
 }
 
 footer {
