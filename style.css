@@ -10,7 +10,7 @@ body {
     justify-items: center;
 }
 
-img {
+.banner, .message img {
     image-rendering: pixelated;
 }
 
@@ -23,8 +23,47 @@ a:hover, a:visited {
     color: #10d275;
 }
 
+.expand-bubble {
+    font-size: 1.5em;
+    float: left;
+    margin-right: 0;
+    color: #10d275 !important;
+}
+
+.navigation {
+    left: 10px;
+    top: 10px;
+    right: auto;
+    bottom: auto;
+    position: fixed;
+    box-shadow: 10px 10px #10d275;
+    z-index: 100;
+}
+
 .wrapper {
     padding: 22px;
+}
+
+.banner {
+    margin-top: 115px;
+}
+
+.active-section {
+    color: #10d275 !important;
+}
+
+.nonactive-section {
+    color: #aaa !important;
+}
+
+@media only screen and (min-width: 900px) {
+    .banner {
+        margin-top: 0px;
+    }
+
+    .wrapper {
+        padding: 44px;
+    }
 }
 
 .nes-container {
